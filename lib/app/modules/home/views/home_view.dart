@@ -30,7 +30,7 @@ class HomeView extends GetView<HomeController> {
               ),
               Column(
                 children: [
-                  Texts.body1("Daftar Pemenang", color: Colors.white),
+                  Texts.body1("Daftar Pemenang", color: Colors.white,isBold: true),
                   Container(
                     width: 45.w,
                     height: 30.h,
@@ -129,7 +129,7 @@ class HomeView extends GetView<HomeController> {
                                     Text(
                                       "Hadiah yang dipilih: ${controller.mainHadiah}",
                                       style: TextStyle(
-                                          fontSize: 11.sp,
+                                          fontSize: 10.sp,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white),
                                     ),

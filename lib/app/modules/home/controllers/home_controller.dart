@@ -127,7 +127,7 @@ class HomeController extends GetxController {
 
   void StopAcak() async {
     await player.stop();
-    await Future.delayed(Duration(milliseconds: 250));
+    await Future.delayed(Duration(milliseconds: 01));
     await player.play(AssetSource('sounds/winner.mp3'));
   }
 
